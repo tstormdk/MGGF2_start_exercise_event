@@ -36,7 +36,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
- /* Tilføj CSS så teksten automatisk er med store bogstaveralign-content
+ /* Tilføj CSS så teksten automatisk er med store bogstaver
   Kig på:  text-transform */
 }
 
