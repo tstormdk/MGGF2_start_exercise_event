@@ -11,26 +11,17 @@ header{
 	width:100%;
    
 }
-nav{
-	
+.topNav{
+	/*Lav navigationen så den ligner layout forslaget*/
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-header img{
+
+.headerImg{
   width:100%;
   display:block;
 
 }
-li {
-    float: left;
-}
 
-li a {
+.topMenuLink {
     display: block;
     color: white;
     text-align: center;
@@ -40,26 +31,25 @@ li a {
   Kig på:  text-transform */
 }
 
-li a:hover {
+.topMenuLink:hover {
     /*Tilføj farve så når man hover skifter baggrundsfarven til #111 */
 }
-main{
+.mainContent{
 	width:100%;
 	padding-left:5px;
-	float:left;
+	display:flex;
   margin: 0 0 0 0;
 }
-#left{
-	float:left;
+.left{
+/*Skal der mere i denne class? mon?*/
 	width:50%;
 }
 .article_img{
-	float:left;
 	margin-right:10px;
   margin-top: 5px;
 }
-#right{
-	float:right;
+.right{
+  /*Skal der mere i denne class? mon?*/
 	width:50%;
 }
 .footer_text{
@@ -68,3 +58,5 @@ main{
 footer{
   margin-top:20px;
 }
+/*Tilføj nok margin så "flamme teksten" kan være der*/
+/*Skab luft mellem left & right om Navbar'en*/
